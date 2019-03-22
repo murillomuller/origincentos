@@ -5,7 +5,10 @@
 
 ### MUDAR SENHA DO ROOT
 
-    sudo -s  passwd root  "Nova senha"  "Confirmar Senha"
+    sudo -s
+    passwd root
+    $ "Nova senha"
+    $ "Confirmar Senha"
 
 ### LOGIN SERVIDOR CENTOS DESEJADO
 
