@@ -40,6 +40,10 @@
     "insecure-registries": ["172.30.0.0/16"]
     }
 
+### INICIAR DOCKER
+
+    systemctl start docker
+    
 ### INSTALAR WGET (SE NÃO EXISTIR)
 
     yum install wget -y
