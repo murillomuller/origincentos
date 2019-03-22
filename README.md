@@ -55,4 +55,4 @@
 
     cd oc
     export PATH="$(pwd)":$PATH
-    oc cluster up --public-hostname ipdamaquina.nip.io
+    oc cluster up --public-hostname=ipdamaquina.nip.io
