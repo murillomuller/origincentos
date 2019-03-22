@@ -1,9 +1,7 @@
 
-**################################################**
 
-## INSTALAÇÃO OPENSHIFT CLUSTER UP
+# INSTALAÇÃO OPENSHIFT CLUSTER UP
 
-**################################################**
 
 ### MUDAR SENHA DO ROOT
 
