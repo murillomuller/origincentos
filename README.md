@@ -40,9 +40,9 @@
     "insecure-registries": ["172.30.0.0/16"]
     }
 
-### INICIAR DOCKER
+### REINICIAR DOCKER
 
-    systemctl start docker
+    systemctl restart docker
     
 ### INSTALAR WGET (SE NÃO EXISTIR)
 
@@ -59,4 +59,4 @@
 
     cd oc
     export PATH="$(pwd)":$PATH
-    oc cluster up --public-hostname=ipdamaquina.nip.io
+    oc cluster up --base-dir=/diretoriodesuaescolha --public-hostname=ipdamaquina.nip.io --routing-suffix=ipdamaquina.nip.io
